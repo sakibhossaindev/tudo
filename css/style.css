@@ -1,17 +1,62 @@
+.tudo {
 
-.container h1{
-text-align: center;
-padding-top: 50px;
+    margin: 0px auto;
+    background-image: linear-gradient(to bottom right, rgb(30, 134, 204), rgb(165, 39, 174));
+    width: 500px;
+    border-radius: 20px;
+    height: 350px;
+
 }
-input{
+
+.container h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+h6 {
+    padding-left: 156px;
+    color: white;
+}
+
+input {
     display: block;
     margin: 15px auto;
     padding: 10px auto;
     width: 200px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
 }
-button{
+
+textarea {
     display: block;
     margin: 15px auto;
     padding: 10px auto;
+    width: 200px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+}
+
+.btnone {
+    display: block;
+    margin: 0 auto;
+    padding: 10px auto;
     width: 100px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, rgb(173, 165, 23), rgb(45, 215, 144));
+   border-radius: 20px;
+}
+
+.btntwo {
+    background: rgb(222, 181, 31);
+    border-radius: 10px;
 }
