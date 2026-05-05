@@ -6,17 +6,6 @@ let errorone = document.querySelector(".errorone");
 let errortwo = document.querySelector(".errortwo");
 
 let arr = []
-function display() {
-    arr.map((item) => {
-        postone.innerHTML += `<div class="card-body card-1">
-               <h5>${item.name}</h5>
-               <p>${item.message}</p>
-               <button class="btntwo">post</button>
-               <button class="btntwo">delete</button>
-            </div>
-            `
-    })
-}
 
 btnone.addEventListener("click", () => {
     errorone.textContent = "";
@@ -43,3 +32,26 @@ btnone.addEventListener("click", () => {
 
 })
 
+function display() {
+    arr.map((item) => {
+        postone.innerHTML += `<div class="card-body card-1">
+               <h5>${item.name}</h5>
+               <p>${item.message}</p>
+               <button class="btntwo ">post</button>
+               <button class="btnthree delete">delete</button>
+            </div>
+           `
+    });
+    let deletebtn = document.querySelectorAll(".delete");
+    let dlt = Array.from(deletebtn);
+    dlt.map((item, index) => {
+        item.addEventListener("click", () => {
+            arr.splice(index, 1);
+            postone.innerHTML = "";
+            display();
+            console.log("Clicked delete button for item at index:", index);
+        })
+    })
+
+
+}
