@@ -39,7 +39,7 @@ textarea {
     color: white;
 }
 
-.btnone {
+.btnone ,.update {
     display: block;
     margin: 0 auto;
     padding: 10px auto;
@@ -60,7 +60,7 @@ textarea {
     background: rgb(222, 181, 31);
     border-radius: 10px;
 }
-
+    
 .errorone {
     color: white;
     text-align: center;
