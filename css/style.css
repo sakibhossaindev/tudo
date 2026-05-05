@@ -4,7 +4,7 @@
     background-image: linear-gradient(to bottom right, rgb(30, 134, 204), rgb(165, 39, 174));
     width: 500px;
     border-radius: 20px;
-    height: 350px;
+    height: 400px;
 
 }
 
@@ -21,7 +21,7 @@ h6 {
 
 input {
     display: block;
-    margin: 15px auto;
+    margin: 0px auto;
     padding: 10px auto;
     width: 200px;
     background: transparent;
@@ -31,7 +31,7 @@ input {
 
 textarea {
     display: block;
-    margin: 15px auto;
+    margin: 0px auto;
     padding: 10px auto;
     width: 200px;
     background: transparent;
@@ -47,16 +47,29 @@ textarea {
     background: transparent;
     color: white;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 
 }
 
 .card {
     background-image: linear-gradient(to bottom right, rgb(173, 165, 23), rgb(45, 215, 144));
-   border-radius: 20px;
+    border-radius: 20px;
 }
 
 .btntwo {
     background: rgb(222, 181, 31);
     border-radius: 10px;
+}
+
+.errorone {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.errortwo {
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
